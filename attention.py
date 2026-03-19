@@ -6,9 +6,12 @@ def create_qkv(X):
 
     np.random.seed(42)  # for consistent results
 
-    Wq = np.random.rand(d_model, d_model)
-    Wk = np.random.rand(d_model, d_model)
-    Wv = np.random.rand(d_model, d_model)
+    # Wq = np.random.rand(d_model, d_model)
+    # Wk = np.random.rand(d_model, d_model)
+    # Wv = np.random.rand(d_model, d_model)
+    Wq = np.random.randn(d_model, d_model) * 0.1
+    Wk = np.random.randn(d_model, d_model) * 0.1
+    Wv = np.random.randn(d_model, d_model) * 0.1
 
     Q = X @ Wq
     K = X @ Wk
