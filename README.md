@@ -59,6 +59,8 @@ Attention weights are rendered as a heatmap:
 
 This provides a direct view into how contextual relationships are formed across tokens.
 
+![Attention Heatmap](images/attention_heatmap.png)
+
 ---
 
 ## Key Characteristics

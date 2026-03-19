@@ -18,5 +18,5 @@ def plot_attention(attention_weights, tokens):
     plt.ylabel("Queries (Words)")
 
     plt.title("Self-Attention Heatmap")
-
+    plt.savefig("attention_heatmap.png", bbox_inches='tight')
     plt.show()
